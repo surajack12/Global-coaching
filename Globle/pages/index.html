@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" href="../webImg/logo.png" type="image/x-icon">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   
+  <meta charset="UTF-8">
+  <meta name="description " content="Best coaching classes">
+  <meta name="keywords" content="coaching , bhopal ,globle , 10th,11th,12th,commerce,suraj sahu">
+  <meta name="author" content="suraj sahu">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Globle coaching classes</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat&display=swap" rel="stylesheet">
+  <style>
+
+ h1,h2,h3,h4,h5{
+  font-family: 'merriweather',serif;
+  
+ }
+ footer  li{
+  
+   list-style: none;
+ }
+ footer{
+   bottom: 0px;
+ }
+ footer i .fab{
+  margin:4px 4px 4px 4px;
+ }
+ body{
+  font-family: 'montserrat', sans-serif;
+  background-color: #f3f3f3 !important;
+  
+
+ }
+ @media only screen and (max-width:600px) {
+
+  #nevbar{
+   position: sticky;
+   top:0px;
+   width :100%;
+ }
+ #nevbar .w3-button{
+   margin: 0;
+   border-bottom: 2px coral !important;
+ 
+ }
+ }
+
+ @media only screen and (min-width:900px) {
+ #nevbar .w3-button{
+   margin :10px;
+   border-bottom: 2px coral !important;
+ 
+ }
+ }
+ @media only screen and (min-width:700px) {
+   
+ 
+   #space{
+            margin-top: 2%;
+            }
+   }
+   @media only  screen and (max-width: 600px) {
+  #space{
+          margin-top: 5%;
+          }
+  }  
+  </style>
+</head>
+<body onload="showpage()"  id="body">
+  <div class=" w3-container  w3-margin-bottom  w3-white " >
+    
+    
+    <div class=" w3-quarter w3-left w3-center ">
+      
+              <a href="index.html"><img style="max-height: 100px" class="w3-margin-top w3-image" st src="../webImg/logo.png" alt="Globle" title="Globle coaching classes"> </a>
+             <br><h4>Since 2005</h5>
+      
+    </div>
+    <div class=" w3-col l9 m9 s12 w3-bar  " >
+      <!---------------NAVIGATION BAR------------>
+       <div class="w3-bar w3-center w3-hide-small" id="nevbar" style="margin-top: 7%;position:unset">  
+           <a  class="w3-button w3-right w3-bar-item   " onclick="modal01.style.display='block';page.style.display='none'"> Log in </a>
+            <a  class="w3-button w3-right  w3-bar-item " href="#footer" >About</a>
+            <a  class="gallary w3-button  w3-right  w3-bar-item " href="study.php">Study materials</a>
+            <a  class="gallary w3-button  w3-right  w3-bar-item ">Gallary</a>
+           
+            <a id="home"   class="w3-button  w3-right  w3-bar-item  active" onclick="showpage()">Home</a>
+      </div>
+      <div class="w3-bar w3-hide-medium w3-hide-large">
+        <a href="#" class="w3-xlarge w3-button w3-right w3-padding" onclick="sidebar.style.display='block'" > <i class="fas fa-bars"></i>  </a>
+      </div>
+
+    <div id="sidebar" class="w3-padding w3-center w3-round-small w3-sidebar w3-center w3-animate-right w3-display-right " onclick="sidebar.style.display='none'" style="display: none;">
+        <a onclick="sidebar.style.display='none';showpage()" class=" w3-hover-red w3-button  w3-margin" >&times;</a><br>
+        <div  class="w3-margin-top">
+      <button  class="w3-bar-block w3-center w3-button " onclick="showpage()" id="home" >Home</button><br>
+      <a   href="study.php" class=" w3-button  w3-right  w3-bar-item ">Study materials</a><br>
+      <button  class="w3-bar-block w3-center w3-button gallary"  >Gallary</button><br>
+            <a href="#footer" class="w3-bar-block w3-center w3-button">connect</a>    
+        <button href="" class=" w3-bar-block w3-button w3-green w3-card-2" onclick="modal01.style.display='block';page.style.display='none'" style="display: table-footer-group;
+        margin: inherit;"><span class="w3-center" >LOGIN</span>  </button>
+     </div>
+    </div>
+  </div>
+  
+</div>
+
+<br>
+</div>
+ 
+ <!------------------login---------------->
+ <div id="modal01" class="w3-modal w3-black " style="display: none;">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image" onclick="modal01.style.display='none';showpage()"><i class="fa fa-remove"></i></span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64" style="top: 5%">
+        <div class="w3-col l6 m8 s11 w3-display-middle w3-margin-64" id="box1" style="display: block;" >                                                                                        
+      <form method="POST" action="action.php">
+        <div class=" w3-padding-64 w3-padding w3-white w3-card-2">
+                               <div class=" w3-panel w3-center  w3-text-orange">
+                         <h3>User login</h3>                         
+                       </div>			
+        <input class="w3-input w3-border w3-round " autocomplete="off" placeholder="Enter your username." type="text" name="user_l_name" required><br>
+
+        <input class="w3-input w3-border w3-round" type="password" autocomplete="off" placeholder="Password" name="user_l_pass" required="required"><br>
+
+            <br>
+            <div><button class="w3-button w3-padding w3-orange w3-center" type="submit" name="ad_log">login</button></div><br>
+            <a href="createacc.php" class="w3-hover-text-blue w3-left w3-text-gray">Create  account.</a>
+<!--<a href="forgot_pass.php" class="w3-hover-text-blue w3-text-gray w3-right"> Forget pass?</a>-->
+                    
+        </div>
+  </form>
+</div>
+</div>
+</div>
+
+<div id="space"></div>
+  
+  <!-----------------Both the pages are are hear------------------------->
+  <div class=" w3-container w3-margin-top w3-margin-bottom  w3-round" id="page"></div>
+  <div class="w3-margin-top container" id="gall_show"></div>
+  <!-----------------Ends hear------------------>
+  <footer class="w3-footer  w3-container w3-row-padding " style="background-color: #181818;" id="footer" >
+    <div class="w3-third w3-center w3-padding">
+      <img class="w3-image w3-margin w3-padding" src="../webImg/logo.png" alt="Globle coaching classes" style="max-height: 140px">
+     <h5 class="w3-text-white">Globle coaching classes</h5>
+    </div>
+    <div class=" w3-third w3-text-white  w3-padding-right">
+      <h3>ADDRESS</h3>
+        <hr>
+        <div class="w3-margin-left">
+                  <p>EWS 10 Near Kasturba School </p>
+          <p> North T.T. Nagar 462003, Bhopal , Madhya pradesh</p>
+           <p>EMAIL:- globlecoachingbhopal@gmail.com </p>
+              <p>PHONE Number:- 098930 41164</p>
+              </div>
+    </div>
+    <div  class=" w3-third w3-text-white w3-xlarge  w3-padding-right">
+      <h3  >Connect with us </h3>
+      <div class="w3-margin-left  w3-center">
+        <hr>
+      
+      <a href="#" class="w3-bar-item w3-button"><i class="fab fa-facebook-f"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fab fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fab fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fab fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fab fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fab fa-linkedin"></i></a>
+    
+    </div>
+   </div>
+   
+<div class="w3-padding w3-bar w3-small w3-text-white">
+  <div  style="border: dimgrey 1px solid" class="w3-margin"></div>
+Copyright:-©Globle Coaching Classes
+
+
+</div>
+
+
+  </footer>
+  
+  <script>
+  
+   function showpage(){
+               $(document).ready(function()
+                {        
+                     $("#page").load("home.html");
+                     $('#gall_show').hide(1500);
+                     $('#page').show();
+                });
+    }
+      $(".gallary").on('click',function () {
+            $('#gall_show').load("gallary.html");
+            $('#page').hide(1500);
+            $('#gall_show').show();
+                    });
+  
+   </script>
+   
+
+
+  </body>
+</html>
